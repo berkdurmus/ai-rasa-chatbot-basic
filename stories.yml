@@ -1,0 +1,20 @@
+stories:
+    - story: simple greet
+      steps:
+          - intent: greet
+          - action: utter_greet
+    - story: simple goodbye
+      steps:
+          - intent: goodbye
+          - action: utter_goodbye
+    - story: weather inquiry
+      steps:
+          - intent: ask_weather
+          - action: action_provide_weather
+          - action: utter_anything_else
+    - story: book table
+      steps:
+          - intent: book_table
+          - action: action_book_table
+          - action: utter_confirm_booking
+          - action: utter_anything_else

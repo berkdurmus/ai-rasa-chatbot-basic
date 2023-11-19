@@ -1,0 +1,17 @@
+nlu:
+    - intent: greet
+      examples: |
+          - Hello
+          - Hi there
+    - intent: goodbye
+      examples: |
+          - Bye
+          - Goodbye
+    - intent: ask_weather
+      examples: |
+          - What's the weather like in [Paris](location)?
+          - Tell me the weather forecast for [New York](location).
+    - intent: book_table
+      examples: |
+          - I want to book a table for [two](number) at [7 pm](time)
+          - Book a table for [four](number) at [9 pm](time)

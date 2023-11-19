@@ -1,0 +1,33 @@
+intents:
+    - greet
+    - goodbye
+    - ask_weather
+    - book_table
+
+entities:
+    - location
+    - number
+    - time
+
+slots:
+    location:
+        type: text
+    number:
+        type: text
+    time:
+        type: text
+
+responses:
+    utter_greet:
+        - text: 'Hello! How can I help you?'
+    utter_goodbye:
+        - text: 'Goodbye!'
+    utter_anything_else:
+        - text: 'Is there anything else I can help you with?'
+
+actions:
+    - utter_greet
+    - utter_goodbye
+    - action_provide_weather
+    - action_book_table
+    - utter_anything_else
