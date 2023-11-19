@@ -47,5 +47,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [Your Email]
-Project Link: [Your Repository Link Here]
+Your Name - [Berk Durmus]
